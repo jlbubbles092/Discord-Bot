@@ -23,7 +23,7 @@ message.delete()
 }
   
 
-  var prefix = '++'
+  var prefix = 'b!'
   
 //PING COMMAND (episode 1 / episode 6)
   if(message.content.startsWith(`${prefix}ping`)) {

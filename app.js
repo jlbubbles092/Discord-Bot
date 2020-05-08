@@ -6,7 +6,7 @@ client.login(process.env.TOKEN)
 //CUSTOM PLAYING STATUS (episode 9)
 client.on("ready", () => {
 console.log('The bot has started!')
-  client.user.setActivity('something...', { type: "WATCHING"})
+  client.user.setActivity('you type in commands.', { type: "WATCHING"})
   
 })
 
@@ -38,7 +38,7 @@ message.edit(`:ping_pong: Ponk! Took **${(end - start)}**ms!`)
   
   if(message.content.startsWith(`${prefix}dm`)) {
     
-    message.member.send('hello world!\nthis is a new line!')
+    message.member.send('Hello user!\nThis is a new world!')
   }
 
   //SAY COMMAND (episode 3)
@@ -74,7 +74,7 @@ var choices = [
 
   //DIE COMMAND / RESTART COMMAND (episode 7)
   if(message.content.startsWith(`${prefix}die`)) {
-  let devs = ['339177677326123018']
+  let devs = ['420329149593550848','699045551496364102']
   
   if(!devs.includes(message.author.id)) {
 return true
@@ -101,7 +101,7 @@ process.exit()
   if(message.content.startsWith(`${prefix}subc`)) {
     
     var request = require('request')
-    var id = 'UCA3QtGSDbBoS5ogCitr_KQw'
+    var id = 'UCY8L8VQGszBVLxdxjezu92g'
     var key= process.env.YT_KEY
     
     var url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=" + id + "&key=" + key;

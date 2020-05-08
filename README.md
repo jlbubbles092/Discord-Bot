@@ -26,3 +26,4 @@ If something's wrong or you need more help, [join my Discord server!](https://wi
 
 - This GitHub repository and Glitch project are not affiliated with [Discord](https://discord.com) in any way.
 # Dynamite
+# Discord-Bot
